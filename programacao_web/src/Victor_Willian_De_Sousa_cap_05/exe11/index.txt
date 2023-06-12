@@ -1,0 +1,10 @@
+RESPOSTA:
+
+
+  O parâmetro "ACTION" dentro de um formulário HTML especifica o URL do servidor ou do script CGI (Common Gateway Interface) que irá processar os dados submetidos pelo formulário.
+
+Quando um usuário preenche um formulário e clica no botão de envio, os dados inseridos no formulário são enviados para o URL especificado pelo parâmetro ACTION. Esse URL é geralmente uma página do servidor que contém um script CGI ou um programa do lado do servidor que processa os dados submetidos pelo formulário.
+
+Por exemplo, se o ACTION for definido como "/processar.php", o navegador do usuário enviará os dados do formulário para o arquivo "processar.php" localizado no servidor. O arquivo "processar.php" é responsável por processar os dados enviados pelo formulário e gerar uma resposta que será enviada de volta ao navegador do usuário.
+
+Em resumo, o parâmetro ACTION é usado para especificar o destino dos dados submetidos pelo formulário e é uma parte essencial para o processamento de dados do lado do servidor.

@@ -1,0 +1,15 @@
+REPOSTA:
+
+  Para inserir em um formulário um campo do tipo senha, em que os caracteres digitados não são exibidos, deve-se informar o tipo "password" na tag INPUT.
+
+O atributo type da tag INPUT especifica o tipo de entrada de dados que será utilizada para o campo de entrada. Ao definir o valor "password" para o atributo type, o navegador renderiza um campo de senha no formulário. Quando o usuário digita no campo de senha, os caracteres são ocultados por pontos ou asteriscos para evitar que outros usuários visualizem a senha.
+
+A seguir, um exemplo de como definir um campo de senha em um formulário HTML:
+
+<label for="senha">Senha:</label>
+<input type="password" id="senha" name="senha">
+
+No exemplo acima, a tag INPUT tem o atributo type definido como "password".
+
+Quando o usuário digita no campo de senha, o conteúdo digitado é ocultado por pontos ou asteriscos e
+ é enviado para o servidor como uma string criptografada, tornando a comunicação mais segura.

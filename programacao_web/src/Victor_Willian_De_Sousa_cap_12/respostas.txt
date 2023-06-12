@@ -1,0 +1,20 @@
+1 - O que é PHP? 
+    R: php é uma linguagem de programação de código aberto, 
+    muito utilizada, e que roda do lado do servidor, processando o código e devolvendo o HTML ao cliente.
+    PHP é um acrônimo para "PHP: Hypertext Preprocessor".
+
+2 - Qual a função básica utilizada para testarmos o funcionamento do PHP após sua instalação? Obs: É uma função que retorna várias informações a respeito do PHP e sua instalação.
+    R: phpinfo();
+
+3 - Quais são os marcadores (tags) aceitos pelo PHP 8, para delimitar os códigos PHP? 
+  R: <?php ?> e <?= ?>
+
+4 - É possível misturar HTML e PHP? Explique sua resposta 
+    R: Sim, é possível misturar HTML e PHP, pois o PHP é interpretado pelo servidor, e não pelo navegador do cliente, ele devolve o html para o navegador e esse sim e interpretado pelo navegador.
+
+
+5 - Como devemos proceder para incluir comentários longos (mais de uma linha) em um programa PHP? 
+    R: /* */ para comentários longos e  // para comentários curtos
+
+6 - Qual é o caractere utilizado para separação dos comandos PHP? Devemos utilizá-lo sempre? Explique. 
+    R: ; (ponto e virgula) é o caractere utilizado para separação dos comandos PHP, e sim, devemos utilizá-lo sempre, pois é uma boa prática de programação.

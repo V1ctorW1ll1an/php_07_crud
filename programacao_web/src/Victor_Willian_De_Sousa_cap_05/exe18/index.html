@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Upload de arquivos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">
+          Envie até 5 arquivos nos formatos GIF ou JPEG com no máximo 100KB
+          cada:
+        </h2>
+        <form
+          action="processa_upload.php"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <div class="field">
+            <label class="label">Arquivo 1</label>
+            <div class="control">
+              <input type="file" name="arquivo1" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Arquivo 2</label>
+            <div class="control">
+              <input type="file" name="arquivo2" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Arquivo 3</label>
+            <div class="control">
+              <input type="file" name="arquivo3" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Arquivo 4</label>
+            <div class="control">
+              <input type="file" name="arquivo4" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Arquivo 5</label>
+            <div class="control">
+              <input type="file" name="arquivo5" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary" type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

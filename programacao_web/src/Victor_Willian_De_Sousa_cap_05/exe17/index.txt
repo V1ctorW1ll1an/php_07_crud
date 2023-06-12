@@ -1,0 +1,13 @@
+RESPOSTA:
+
+  Para permitir o upload de arquivos em um formulário HTML, é necessário definir o valor do atributo "enctype" na tag <form>. O valor correto do atributo "enctype" para upload de arquivos é "multipart/form-data".
+
+O valor padrão do atributo "enctype" é "application/x-www-form-urlencoded", que é usado para enviar dados do formulário em um formato simples de URL codificado. No entanto, para enviar arquivos binários, é necessário usar o valor "multipart/form-data". Esse valor informa ao servidor que o formulário contém dados binários, que não podem ser codificados no formato URL.
+
+A sintaxe para definir o atributo "enctype" na tag <form> é a seguinte:
+
+<form action="exemplo.php" method="post" enctype="multipart/form-data">
+  <!-- campos do formulário aqui -->
+</form>
+
+No exemplo acima, o atributo "enctype" está definido como "multipart/form-data", permitindo que o formulário envie arquivos binários para o servidor. É importante lembrar que, ao usar "multipart/form-data", o envio do formulário pode ser um pouco mais lento do que com "application/x-www-form-urlencoded", devido ao maior volume de dados sendo transferidos.

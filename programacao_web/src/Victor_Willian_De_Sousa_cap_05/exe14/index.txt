@@ -1,0 +1,19 @@
+RESPOSTA:
+
+  O tipo de campo SELECT em um formulário HTML é utilizado para criar uma caixa de seleção (dropdown) que permite que o usuário escolha uma ou mais opções dentre as disponíveis.
+
+O elemento SELECT é usado para criar a caixa de seleção e o elemento OPTION é usado para definir as opções dentro da caixa. A sintaxe básica para criar um campo SELECT é a seguinte:
+
+
+<label for="escolha">Escolha uma opção:</label>
+<select id="escolha" name="escolha">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+
+No exemplo acima, a tag SELECT tem o atributo id definido como "escolha" e o atributo name definido como "escolha". As tags OPTION definem as opções dentro da caixa de seleção, com valores atribuídos ao atributo value e os rótulos (nomes) das opções definidos entre as tags OPTION.
+
+Quando o formulário é enviado, o valor selecionado na caixa de seleção é enviado para o servidor como parte dos dados do formulário, com o nome do campo sendo definido pelo atributo name. O valor enviado pode ser acessado no lado do servidor por meio de uma linguagem de programação como PHP ou JavaScript.
+
+Em resumo, o tipo de campo SELECT é usado para criar uma caixa de seleção que permite que o usuário selecione uma ou mais opções entre as disponíveis. A sintaxe básica envolve o uso da tag SELECT e das tags OPTION para definir as opções dentro da caixa.

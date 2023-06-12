@@ -1,0 +1,11 @@
+RESPOSTA:
+  
+  GET e POST são dois métodos usados para enviar dados de um formulário HTML para um servidor web. A principal diferença entre eles é a forma como os dados são enviados.
+
+O método GET envia os dados do formulário como uma string de consulta (query string) anexada ao URL de destino. Isso significa que os dados são visíveis na barra de endereço do navegador. O método GET é amplamente utilizado para solicitar informações do servidor e é mais adequado para formulários de busca ou para solicitar recursos estáticos do servidor.
+
+O método POST, por outro lado, envia os dados do formulário no corpo da requisição HTTP, que não é visível na barra de endereço do navegador. Isso torna o método POST mais seguro para o envio de dados confidenciais, como senhas e informações de cartão de crédito. O método POST é amplamente utilizado para enviar informações para o servidor, como o preenchimento de um formulário de inscrição ou o envio de comentários em um site.
+
+Outra diferença entre os métodos GET e POST é que o método GET é limitado em termos de quantidade de dados que podem ser enviados, enquanto o método POST não tem esse limite. O método GET tem um limite de cerca de 2048 caracteres, enquanto o método POST pode enviar grandes quantidades de dados.
+
+Em resumo, o método GET é mais adequado para solicitações de dados do servidor, enquanto o método POST é mais seguro e adequado para o envio de informações confidenciais ou grandes quantidades de dados para o servidor.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form method="POST" action="show.php">
+      <label for="codigo">Código:</label>
+      <input
+        type="text"
+        name="codigo"
+        id="codigo"
+        maxlength="10"
+        required
+      /><br /><br />
+
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        maxlength="30"
+        required
+      /><br /><br />
+
+      <label for="faixa_etaria">Faixa Etária:</label>
+      <select name="faixa_etaria" id="faixa_etaria" required>
+        <option value="">Selecione</option>
+        <option value="ate_10_anos">Até 10 anos</option>
+        <option value="entre_10_e_15_anos">Entre 10 e 15 anos</option>
+        <option value="entre_15_e_20_anos">Entre 15 e 20 anos</option>
+        <option value="entre_20_e_30_anos">Entre 20 e 30 anos</option>
+        <option value="acima_de_30_anos">Acima de 30 anos</option></select
+      ><br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
